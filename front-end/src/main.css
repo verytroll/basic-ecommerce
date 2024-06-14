@@ -1,0 +1,51 @@
+:root {
+    --black-color: #000;
+    --white-color: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 184px;
+    min-height: 48px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn.btn-primary {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+.navbar {
+    height: 88px;
+    border-bottom: 1px solid #ccc;
+}
+
+#app-container {
+    padding: 36px 0;
+}
+
+.title-page {
+    font-size: 3rem;
+    margin-bottom: 24px;
+}
